@@ -56,7 +56,7 @@ echo $content->asXML();
 */
 
 $dom = new DOMDocument();
-$dom->loadHTMLFile('test2.xml');
+$dom->loadHTMLFile('bookmarks_13.08.12.html');
 
 $xpath = new DOMXPath($dom);
 $content = $xpath->query('//DL');

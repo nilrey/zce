@@ -1,4 +1,3 @@
-test
 <?php
 function br(){
 	echo '<br>';
@@ -25,7 +24,8 @@ $showError = true;
 $arFunctions = array(
 //'addcslashes',
 //'xml'
-'practice'
+//'practice'
+'prce'
 );
 
 foreach ($arFunctions as $func) {
